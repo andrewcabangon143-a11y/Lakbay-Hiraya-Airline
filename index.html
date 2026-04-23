@@ -357,16 +357,6 @@ nav {
 .value-card p{font-size:0.85rem;color:#7A6048;line-height:1.6}
 
 /* FLIGHTS PAGE */
-.flights-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.55);  /* Adjust opacity as needed */
-  z-index: 1;
-} 
 .flights-hero {
   background: url('search-flights-hero.jpg') center/cover no-repeat;
   padding: 60px;
@@ -375,8 +365,12 @@ nav {
   position: relative;
 }
 .flights-hero h1{font-family:'Cormorant Garamond',serif;font-size:3rem;color:white;margin-bottom:8px}
-.flights-hero p{color:#D4B896;font-weight:300}
-.search-box {
+.flights-hero p {
+  color: #4A2F1D;  /* deep dark brown */
+  font-weight: 500;
+  text-shadow: none; /* remove shadow for cleaner look */
+}
+  .search-box {
     background: rgba(255, 255, 255, 0.88);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
